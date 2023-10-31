@@ -31,6 +31,12 @@ class AppServiceProvider extends ServiceProvider
         config()->set('settings', Setting::pluck('value','item')->all());
         URL::forceScheme('https');
 
+        define('SWEETALERT_MESSAGE_CREATE', 'Eklendi');
+        define('SWEETALERT_MESSAGE_UPDATE', 'Güncellendi');
+        define('SWEETALERT_MESSAGE_DELETE', 'Silindi');
+        define('CARGO_LIMIT', 200);
+        define('CARGO_PRICE', 17.90);
+
         Blade::component('form-inputtext', InputText::class);
         Blade::component('form-select', SelectBox::class);
         Blade::component('form-textarea', TextArea::class);

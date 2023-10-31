@@ -2,12 +2,8 @@
     //SWEETALERT MESAJLARI -
     use Gloudemans\Shoppingcart\Facades\Cart;
 
-    define('SWEETALERT_MESSAGE_CREATE', 'Eklendi');
-    define('SWEETALERT_MESSAGE_UPDATE', 'Güncellendi');
-    define('SWEETALERT_MESSAGE_DELETE', 'Silindi');
-    define('CARGO_LIMIT', 200);
-    define('CARGO_PRICE', 17.90);
-    define('MAIL_SEND', 'info@tbkitap.com');
+
+
 
     function cartControl($id, $text = null){
         foreach (Cart::instance('shopping')->content() as $c){

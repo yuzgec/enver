@@ -16,7 +16,7 @@
         @include('frontend.layout.header')
         <div role="main" class="main">
             @yield('content')
-            <a href="https://api.whatsapp.com/send?phone={{ config('settings.whatsapp1') }}&text=Merhaba bilgi almak istiyorum." class="float" target="_blank" title="Whatsapp Bilgi Hattı">
+            <a href="https://api.whatsapp.com/send?phone={{ config('settings.whatsapp') }}&text=Merhaba bilgi almak istiyorum." class="float" target="_blank" title="Whatsapp Bilgi Hattı">
                 <i class="fab fa-whatsapp my-float"></i>
             </a>
         </div>
