@@ -159,4 +159,26 @@
         </div>
     </section>
 
+
+    <div class="modal show" tabindex="-1" role="dialog" id="kongredetay">
+        <div class="modal-dialog modal-lg" role="document" id="banner">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <a href="{{ route('servicedetail', 'arastirma-hizmeti') }}">
+                        <img src="/anket.jpg" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
+
+
+@section('customJS')
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $('#kongredetay').modal('show');
+        });
+    </script>
+@endsection
+
