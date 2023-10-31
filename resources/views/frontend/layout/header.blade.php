@@ -37,11 +37,12 @@
                                                 @endforeach
                                             </ul>
                                         </li>
+                                        @foreach($Servicecategory as $row)
                                         <li class="dropdown dropdown-primary">
                                             <a class="dropdown-toggle nav-link" href="{{ route('service') }}">
-                                                Hizmetlerimiz</a>
+                                                {{ $row->title }}</a>
                                             <ul class="dropdown-menu">
-                                                @foreach($Service->where('category', 1) as $item)
+                                                @foreach($Service->where('category', $row->id) as $item)
                                                     <li>
                                                         <a class="dropdown-item"  href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
                                                             {{ $item->title }}
@@ -50,21 +51,14 @@
                                                 @endforeach
                                             </ul>
                                         </li>
+                                        @endforeach
+
                                         <li>
                                             <a class="nav-link" href="{{ route('reference') }}">
                                                 Referanslarımız
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="nav-link" href="{{ route('video') }}">
-                                                Video Galeri
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link" href="{{ route('blog') }}">
-                                                Makaleler
-                                            </a>
-                                        </li>
+
                                         <li>
                                             <a class="nav-link" href="{{ route('contactus') }}">
                                                 İletişim

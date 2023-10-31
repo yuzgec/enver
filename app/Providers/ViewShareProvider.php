@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use App\Models\Blog;
-use App\Models\Features;
 use App\Models\Page;
 use App\Models\Service;
 use App\Models\ServiceCategory;
@@ -25,16 +24,18 @@ class ViewShareProvider extends ServiceProvider
             return Service::orderBy('rank', 'asc')->get();
         });
 
+        $Servicecategory = ServiceCategory::orderBy('rank', 'asc')->get();
+
         $Blog = Cache::remember('blog',now()->addYear(1), function () {
             return Blog::all();
         });
-
 
 
         View::share([
             'Pages' => $Pages,
             'Service' => $Service,
             'Blog' => $Blog,
+            'Servicecategory' =>  $Servicecategory
 
         ]);
     }

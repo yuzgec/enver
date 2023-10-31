@@ -9,33 +9,21 @@
                     <h2 class="text-color-dark font-weight-bold text-12 mb-2 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible"
                         data-appear-animation="maskUp"
                         data-appear-animation-delay="300"
-                        style="animation-delay: 300ms;">Asosyal Danışmanlık</h2>
+                        style="animation-delay: 300ms;">Asosyal Araştırma</h2>
                 </div>
                 <div class="overflow-hidden mb-3">
                     <p class="font-weight-bold text-primary text-uppercase mb-0 appear-animation animated maskUp appear-animation-visible"
-                       data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">Yaratıcı Çözümler, Unutulmaz Anılar
+                       data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">Veriye dayalı gerçek bilgi!
                     </p>
                 </div>
                 <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
-                    2000 yılında Kocaeli İzmit'te doğan ve büyüyen Asosyal Ajans, Türkiye'nin en dinamik ve yenilikçi pazarlama ajanslarından biridir. Sokakta ve telefonla anket yapımı hizmeti, organizasyon ve danışmanlık alanlarında uzmanlaşmış bir ekip tarafından kurulan Asosyal Ajans, her projeyi unutulmaz kılmak için çalışır.
+                    Asosyal Ajans siyasi ve piyasa araştırmalarında saha ve cati hizmetleri sunmaktadır. Tüm hizmetlerini kendi kadrolu personlleri ile gerçekleştirmektedir.  Sonuca ulaşmak için doğru  bilginin önemini bilerek hareket eder. Kocaeli, İstanbul ve Ankarad'da ofisleri bulunmaktadır.
                 </p>
-                <h4>Anket Yapımı Hizmeti</h4>
+
                 <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
-                    Asosyal Ajans, piyasa araştırması ve müşteri görüşlerini anlamak için en etkili yol olan anket yapımı konusunda uzmanlaşmıştır. Pazarın nabzını tutmak ve müşteri beklentilerini anlamak için doğru soruları sorarak işletmelerin büyümesine katkı sağlarız. Her anket, özel ihtiyaçlara uygun olarak tasarlanır ve sonuçlar analiz edilerek değerli bilgiler elde edilir.
+                    2003 yılından beri siyasi seçimlerde hem akademik kadrosu hem de saha personeli ile uzmanlaşmış bir araştırma şirketidir. 2003 yılından beri yapılan seçim sonuçlarını Türkiye'de en az hata payı ile bilen firmadır.
                 </p>
-                <h4>
-                    Organizasyon ve Danışmanlık Hizmetleri
-                </h4>
-                <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
-                    Asosyal Ajans, etkinliklerinizi unutulmaz kılmak için ihtiyaç duyduğunuz her türlü organizasyon ve danışmanlık hizmetini sunar. Özel etkinliklerden kurumsal toplantılara, düğünlerden konserlere kadar her türlü etkinliğinizi başarıyla planlarız. Profesyonel ekibimiz, her ayrıntıyı düşünerek etkinliklerinizi sorunsuz bir şekilde yönetir ve düzenler.
-                </p>
-                <h4>Reklam, Dizi ve Film Çekimleri</h4>
-                <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
-                    Asosyal Ajans, reklam, dizi ve film çekimleri alanlarında da hizmet sunmaktadır. Yaratıcı bir yaklaşımla, hikayenizi anlatmanıza yardımcı olur ve unutulmaz görsel deneyimler yaratır. Ekip arkadaşlarımız, her projeye tutku ve özveri ile yaklaşır, her kareyi özel kılmak için çalışır.
-                    Asosyal Ajans olarak, her projede müşteri memnuniyetini en üst düzeye çıkarmak için çalışıyoruz. İhtiyaçlarınıza uygun çözümler sunarak işinizi daha etkili ve verimli bir şekilde yönetmenize yardımcı oluyoruz. İnovasyon, yaratıcılık ve kalite bizim işimizin temelidir.
-                    Unutulmaz anılar yaratmak ve işinizi bir adım öne taşımak için Asosyal Ajans ile iletişime geçin. Bizimle çalışmanın farkını hemen hissedeceksiniz.
-                    Asosyal Ajans, farklı ihtiyaçlara ve projelere uygun olarak özelleştirilmiş hizmetler sunar ve her zaman müşteri memnuniyetine odaklanır. İşletmenizin veya organizasyonunuzun potansiyelini en üst düzeye çıkarmak için Asosyal Ajans'ın deneyimli ekibiyle iletişime geçin.
-                </p>
+
 
                 <hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
                 <div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
