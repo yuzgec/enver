@@ -41,15 +41,17 @@
                                         <li class="dropdown dropdown-primary">
                                             <a class="dropdown-toggle nav-link" href="{{ route('service') }}">
                                                 {{ $row->title }}</a>
-                                            <ul class="dropdown-menu">
-                                                @foreach($Service->where('category', $row->id) as $item)
-                                                    <li>
-                                                        <a class="dropdown-item"  href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
-                                                            {{ $item->title }}
-                                                        </a>
-                                                    </li>
-                                                @endforeach
-                                            </ul>
+                                                @if($Service->where('category', $row->id)->count() > 0)
+                                                    <ul class="dropdown-menu">
+                                                        @foreach($Service->where('category', $row->id) as $item)
+                                                            <li>
+                                                                <a class="dropdown-item"  href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
+                                                                    {{ $item->title }}
+                                                                </a>
+                                                            </li>
+                                                        @endforeach
+                                                    </ul>
+                                               @endif
                                         </li>
                                         @endforeach
 
