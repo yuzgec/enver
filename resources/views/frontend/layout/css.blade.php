@@ -9,14 +9,3 @@
 <link rel="stylesheet" href="/frontend/css/theme-elements.css">
 <link rel="stylesheet" href="/frontend/css/demos/demo-business-consulting.css">
 <link id="skinCSS" rel="stylesheet" href="/frontend/css/color.css">
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4SCQP3L9H">
-</script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-N4SCQP3L9H');
-</script>
