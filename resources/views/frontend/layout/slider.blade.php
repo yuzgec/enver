@@ -2,14 +2,50 @@
     <div class="owl-stage-outer">
         <div class="owl-stage">
 
-            <!-- Carousel Slide 1 -->
-            <div class="owl-item position-relative" style="background-image: url(slider2.jpg); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative" style="background-image: url(slider1.jpg); background-size: cover; background-position: center;">
+               {{-- <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col text-center">
+                            <div class="d-flex flex-column justify-content-center h-100">
+                                <h2 class="custom-font-slider-2 text-light" data-plugin-animated-letters data-plugin-options="{'startDelay': 750, 'minWindowWidth': 0, 'animationSpeed': 30}">Asosyal Araştırma</h2>
+                                <h2 class="custom-font-slider-1 mb-0 font-weight-bold text-light appear-animation text-12" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Porto Law Firm</h2>
+                                <div class="divider divider-primary divider-small mt-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+                                    <hr class="my-0 me-auto">
+                                </div>
+                                <p class="text-3-5 line-height-9 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Proin bibendum ultricies nunc, eu interdum enim.</p>
 
+                                <div class="text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
+                                    <a href="#" class="btn btn-light text-dark btn-modern text-uppercase font-weight-bold text-2 py-3 btn-px-4">Detaylı Bilgi</a>
+                                    <a href="{{ route('contactus') }}" class="btn btn-primary btn-modern text-uppercase font-weight-bold text-2 py-3 btn-px-4 ms-4">İletişime Geç</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>--}}
             </div>
 
-            <!-- Carousel Slide 2 -->
-            <div class="owl-item position-relative" style="background-image: url(slider1.jpg); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative" style="background-image: url(slider2.jpg); background-size: cover; background-position: center;">
+               {{-- <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col text-center">
+                            <div class="d-flex flex-column justify-content-center h-100">
+                                <h2 class="custom-font-slider-2 text-light" data-plugin-animated-letters data-plugin-options="{'startDelay': 750, 'minWindowWidth': 0, 'animationSpeed': 30}">Asosyal Araştırma</h2>
+                                <h2 class="custom-font-slider-1 mb-0 font-weight-bold text-light appear-animation text-12" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Porto Law Firm</h2>
+                                <div class="divider divider-primary divider-small mt-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+                                    <hr class="my-0 me-auto">
+                                </div>
+                                <p class="text-3-5 line-height-9 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Proin bibendum ultricies nunc, eu interdum enim.</p>
 
+                                <div class="text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
+                                    <a href="#" class="btn btn-light text-dark btn-modern text-uppercase font-weight-bold text-2 py-3 btn-px-4">Detaylı Bilgi</a>
+                                    <a href="{{ route('contactus') }}" class="btn btn-primary btn-modern text-uppercase font-weight-bold text-2 py-3 btn-px-4 ms-4">İletişime Geç</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>--}}
             </div>
 
         </div>

@@ -1100,20 +1100,20 @@ html .btn-primary {
 	border-color: #003366 #003366 #3b9a57;
 	color: #FFF;
 	--color: #003366;
-	--hover: #69c684;
+	--hover: #000000;
 	--disabled: #003366;
 	--active: #3ea35c;
 }
 
 html .btn-primary:hover,
 html .btn-primary.hover {
-	border-color: #72c98b #72c98b #003366;
+	border-color: #000000 #000000 #003366;
 	color: #FFF;
 }
 
 html .btn-primary:hover:not(.bg-transparent),
 html .btn-primary.hover:not(.bg-transparent) {
-	background-color: #69c684;
+	background-color: #000000;
 }
 
 html .btn-primary:focus,
@@ -2224,7 +2224,7 @@ html .btn-with-arrow-solid.btn-light span {
 
 .btn-gradient:not(.btn-outline):hover,
 .btn-gradient:not(.btn-outline).hover {
-	background: linear-gradient(135deg, #69c684 0%, #ffffff 80%) !important;
+	background: linear-gradient(135deg, #000000 0%, #ffffff 80%) !important;
 	color: #FFF;
 }
 
@@ -2252,9 +2252,9 @@ html .btn-with-arrow-solid.btn-light span {
 
 .btn-gradient.btn-outline:hover,
 .btn-gradient.btn-outline.hover {
-	-o-border-image: linear-gradient(135deg, #69c684 0%, #ffffff 80%);
-	border-image: linear-gradient(135deg, #69c684 0%, #ffffff 80%);
-	color: #69c684;
+	-o-border-image: linear-gradient(135deg, #000000 0%, #ffffff 80%);
+	border-image: linear-gradient(135deg, #000000 0%, #ffffff 80%);
+	color: #000000;
 }
 
 .btn-gradient.btn-outline:focus,
@@ -2282,7 +2282,7 @@ html .btn-with-arrow-solid.btn-light span {
 
 .btn-gradient-primary:not(.btn-outline):hover,
 .btn-gradient-primary:not(.btn-outline).hover {
-	background: linear-gradient(135deg, #58bf76 0%, #69c684 80%) !important;
+	background: linear-gradient(135deg, #58bf76 0%, #000000 80%) !important;
 	color: #FFF;
 }
 
@@ -2298,7 +2298,7 @@ html .btn-with-arrow-solid.btn-light span {
 
 .btn-gradient-primary:not(.btn-outline):active,
 .btn-gradient-primary:not(.btn-outline).active {
-	background: linear-gradient(135deg, #58bf76 0%, #69c684 80%) !important;
+	background: linear-gradient(135deg, #58bf76 0%, #000000 80%) !important;
 	color: #FFF !important;
 }
 
@@ -2310,9 +2310,9 @@ html .btn-with-arrow-solid.btn-light span {
 
 .btn-gradient-primary.btn-outline:hover,
 .btn-gradient-primary.btn-outline.hover {
-	-o-border-image: linear-gradient(135deg, #69c684 0%, #69c684 80%);
-	border-image: linear-gradient(135deg, #69c684 0%, #69c684 80%);
-	color: #69c684;
+	-o-border-image: linear-gradient(135deg, #000000 0%, #000000 80%);
+	border-image: linear-gradient(135deg, #000000 0%, #000000 80%);
+	color: #000000;
 }
 
 .btn-gradient-primary.btn-outline:focus,
@@ -2328,9 +2328,9 @@ html .btn-with-arrow-solid.btn-light span {
 
 .btn-gradient-primary.btn-outline:active,
 .btn-gradient-primary.btn-outline.active {
-	-o-border-image: linear-gradient(135deg, #69c684 0%, #69c684 80%);
-	border-image: linear-gradient(135deg, #69c684 0%, #69c684 80%);
-	color: #69c684;
+	-o-border-image: linear-gradient(135deg, #000000 0%, #000000 80%);
+	border-image: linear-gradient(135deg, #000000 0%, #000000 80%);
+	color: #000000;
 }
 
 .pagination > a,
@@ -2386,7 +2386,7 @@ body.dark .pagination > .active > a {
 body.dark .pagination > .active > a:hover,
 .pagination > .active > a.hover,
 body.dark .pagination > .active > a.hover {
-	border-color: #72c98b #72c98b #003366;
+	border-color: #000000 #000000 #003366;
 	color: #fff;
 }
 
@@ -2394,7 +2394,7 @@ body.dark .pagination > .active > a.hover {
 body.dark .pagination > .active > a:hover:not(.bg-transparent),
 .pagination > .active > a.hover:not(.bg-transparent),
 body.dark .pagination > .active > a.hover:not(.bg-transparent) {
-	background-color: #69c684;
+	background-color: #000000;
 }
 
 .pagination > .active > a:focus,
@@ -3370,8 +3370,8 @@ html .inverted-light {
 
 .owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"]:hover,
 .owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"].hover {
-	background-color: #69c684;
-	border-color: #72c98b #72c98b #003366;
+	background-color: #000000;
+	border-color: #000000 #000000 #003366;
 }
 
 .owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"]:active,
@@ -5359,7 +5359,7 @@ html #header .header-top.header-top-primary .dropdown-menu {
 
 html #header .header-top.header-top-primary .dropdown-menu a:hover,
 html #header .header-top.header-top-primary .dropdown-menu a:focus {
-	background: #72c98b !important;
+	background: #000000 !important;
 }
 
 html #header .header-top.header-top-secondary {
@@ -6626,7 +6626,7 @@ html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(4) {
 }
 
 html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(5) {
-	background-color: #72c98b;
+	background-color: #000000;
 }
 
 html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(6) {
@@ -6984,7 +6984,7 @@ html .slide-overlay.slide-overlay-gradient .slotholder:after {
 .tparrows.tparrows-carousel.tp-rightarrow:hover,
 .tparrows.tparrows-carousel.tp-leftarrow.hover,
 .tparrows.tparrows-carousel.tp-rightarrow.hover {
-	border-color: #72c98b #72c98b #003366;
+	border-color: #000000 #000000 #003366;
 	color: #fff;
 }
 
@@ -6992,7 +6992,7 @@ html .slide-overlay.slide-overlay-gradient .slotholder:after {
 .tparrows.tparrows-carousel.tp-rightarrow:hover:not(.bg-transparent),
 .tparrows.tparrows-carousel.tp-leftarrow.hover:not(.bg-transparent),
 .tparrows.tparrows-carousel.tp-rightarrow.hover:not(.bg-transparent) {
-	background-color: #69c684;
+	background-color: #000000;
 }
 
 .tparrows.tparrows-carousel.tp-leftarrow:focus,
