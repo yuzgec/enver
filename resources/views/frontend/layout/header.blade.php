@@ -1,5 +1,5 @@
-<header id="header" class="header-transparent header-transparent-dark-bottom-border header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-    <div class="header-body border-top-0 bg-dark box-shadow-none">
+<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 107, 'stickySetTop': '-107px', 'stickyChangeLogo': true}">
+    <div class="header-body border-color-primary border-top-0 box-shadow-none">
         <div class="header-container container">
             <div class="header-row">
                 <div class="header-column">
@@ -13,8 +13,8 @@
                 </div>
                 <div class="header-column justify-content-end">
                     <div class="header-row">
-                        <div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
-                            <div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                        <div class="header-nav justify-content-start header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1">
+                            <div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
@@ -68,7 +68,7 @@
                                         </li>
                                     </ul>
 
-                                    <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean social-icons-medium social-icons-icon-light">
+                                    <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean social-icons-medium social-icons-icon-dark">
                                         <li class="social-icons-instagram"><a href="http://www.instagram.com/{{ config('settings.instagram') }}" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
                                         <li class="social-icons-youtube"><a href="http://www.youtube.com/{{ config('settings.youtube') }}" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
                                     </ul>
