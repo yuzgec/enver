@@ -15,7 +15,7 @@ class HomeController extends Controller
 {
 
     public function index(){
-        SEOMeta::setTitle('Kocaeli İzmit Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle('Asosyal Ajans ve Araştırma | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription("Asosyal Ajans Kocaeli İzmit'te anket, organizasyon ve medya alanında hizmet vermektedir.");
         SEOMeta::setCanonical(url()->full());
         return view('frontend.index');
@@ -24,7 +24,7 @@ class HomeController extends Controller
 
     public function reference(){
 
-        SEOMeta::setTitle('Referanslarıımız | Kocaeli İzmit Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle('Referanslarıımız | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription("Asosyal Ajans Kocaeli İzmit'te anket, organizasyon ve medya alanında hizmet vermektedir.");
         SEOMeta::setCanonical(url()->full());
 
@@ -33,7 +33,7 @@ class HomeController extends Controller
 
     public function contact(){
 
-        SEOMeta::setTitle('İletişim | Asosyal Ajans');
+        SEOMeta::setTitle('İletişim | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription("Asosyal Ajans Kocaeli İzmit'te anket, organizasyon ve medya alanında hizmet vermektedir.");
         SEOMeta::setCanonical(url()->full());
         return view('frontend.contact');
@@ -42,7 +42,7 @@ class HomeController extends Controller
     public function servicedetail($url){
         $Detail = Service::where('slug', $url)->firstOrFail();
 
-        SEOMeta::setTitle($Detail->title. ' | Kocaeli İzmir Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle($Detail->title. ' | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription($Detail->title. ' | Asosyal Ajans');
         SEOMeta::setCanonical(url()->full());
 
@@ -50,7 +50,7 @@ class HomeController extends Controller
     }
 
     public function service(){
-        SEOMeta::setTitle('Kocaeli İzmir Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle('Kocaeli İzmit Asosyal Ajans ve Araştırma');
         SEOMeta::setDescription("Asosyal Ajans");
         SEOMeta::setCanonical(url()->full());
 
@@ -60,7 +60,7 @@ class HomeController extends Controller
     public function blogdetail($url){
         $Detail = Blog::where('slug', $url)->firstOrFail();
 
-        SEOMeta::setTitle($Detail->title. ' | Kocaeli İzmir Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle($Detail->title. ' | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription($Detail->title. ' | Asosyal Ajans');
         SEOMeta::setCanonical(url()->full());
 
@@ -71,7 +71,7 @@ class HomeController extends Controller
     public function corporatedetail($url){
         $Detail = Page::where('slug', $url)->firstOrFail();
 
-        SEOMeta::setTitle($Detail->title. ' | Kocaeli İzmir Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle($Detail->title. ' | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription($Detail->title. ' | Asosyal Ajans');
         SEOMeta::setCanonical(url()->full());
 
@@ -80,7 +80,7 @@ class HomeController extends Controller
 
     public function blog(){
 
-        SEOMeta::setTitle('Makaleler | Kocaeli İzmir Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle('Makaleler | Kocaeli İzmit Asosyal Ajans ve Araştırma');
         SEOMeta::setDescription('Asosyal Ajans');
         SEOMeta::setCanonical(url()->full());
 
@@ -89,7 +89,7 @@ class HomeController extends Controller
 
     public function video(){
 
-        SEOMeta::setTitle('Video Galeri | Kocaeli İzmir Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle('Video Galeri | Kocaeli İzmit Asosyal Ajans ve Araştırma');
         SEOMeta::setDescription('Asosyal Ajans');
         SEOMeta::setCanonical(url()->full());
 
@@ -108,7 +108,7 @@ class HomeController extends Controller
         $New->save();
 
         Mail::send("mail.form",compact('New'),function ($message) use($New) {
-            $message->to('olcayy@gmail.com')->subject($New->name.' - Site Bilgi Formu');
+            $message->to('haticetasdemir63@gmail.com')->subject($New->name.' - Site Bilgi Formu');
         });
 
         return redirect()->route('home');

@@ -6,7 +6,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="{{ route('home') }}">
-                                <img alt="{{ config('app.name') }}" width="250" src="/logo.png">
+                                <img alt="{{ config('app.name') }}" width="270" src="/logo.jpg">
                             </a>
                         </div>
                     </div>
@@ -54,6 +54,12 @@
                                                @endif
                                         </li>
                                         @endforeach
+
+                                        <li>
+                                            <a class="nav-link" href="{{ route('blog') }}">
+                                                Blog
+                                            </a>
+                                        </li>
 
                                         <li>
                                             <a class="nav-link" href="{{ route('reference') }}">
