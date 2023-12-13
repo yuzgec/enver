@@ -5,7 +5,8 @@
     <div class="container pt-5 mt-5">
         <div class="row py-4 mb-2">
             <div class="col-md-7 order-2">
-                <div class="overflow-hidden">
+                {!! $About->short !!}
+                {{-- <div class="overflow-hidden">
                     <h2 class="text-color-dark font-weight-bold text-12 mb-2 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible"
                         data-appear-animation="maskUp"
                         data-appear-animation-delay="300"
@@ -22,7 +23,7 @@
 
                 <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                     2003 yılından beri siyasi seçimlerde hem akademik kadrosu hem de saha personeli ile uzmanlaşmış bir araştırma şirketidir. 2003 yılından beri yapılan seçim sonuçlarını Türkiye'de en az hata payı ile bilen firmadır.
-                </p>
+                </p> --}}
 
 
                 <hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
@@ -41,7 +42,7 @@
                 </div>
             </div>
             <div class="col-md-5 order-md-2 mb-4 mb-lg-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
-                <img src="/hakkimizda.jpg" class="img-fluid mb-2" alt="Kocaeli İzmit Asosyal Ajans" style="border-radius: 0 25px 0 25px;box-shadow: 5px 5px 1px gray">
+                <img src="{{ (!$About->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $About->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid mb-2" alt="Kocaeli İzmit Asosyal Ajans" style="border-radius: 0 25px 0 25px;box-shadow: 5px 5px 1px gray">
             </div>
         </div>
     </div>

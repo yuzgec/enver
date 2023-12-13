@@ -37,13 +37,16 @@
                     @foreach($All as $item)
                     <tr id="slider_{{$item->id}}">
                         <td>
-                            <span class="avatar me-2" style="background-image: url({{ (!$item->getFirstMediaUrl('slider')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('slider')}})"></span>
+                            <img src="{{ (!$item->getFirstMediaUrl('slider')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('slider')}}" class="avatar me-2"/>
                         </td>
                         <td>
-                            <div class="font-weight-medium">{{ $item->title }}</div>
+                            <div class="font-weight-medium">
+                                <a href="{{ route('slider.edit', $item->id) }}">
+                                {{ $item->title }}
+                            </a></div>
                         </td>
 
-                        <td class="d-flex align-items-center justify-content-center">
+                        <td class="">
                             <label class="form-check form-check-single form-switch">
                                 <input class="form-check-input switch" status-id="{{ $item->id }}"  type="checkbox" @if ($item->status == 1) checked @endif>
                             </label>

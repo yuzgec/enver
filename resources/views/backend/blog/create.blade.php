@@ -96,5 +96,6 @@
                 { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
             ],
         });
+
     </script>
 @endsection

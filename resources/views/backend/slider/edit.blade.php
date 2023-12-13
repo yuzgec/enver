@@ -34,7 +34,6 @@
                     <x-form-inputtext label="Yazı 1" name="text1"/>
                     <x-form-inputtext label="Yazı 2" name="text2"/>
                     <x-form-inputtext label="Yazı 3" name="text3"/>
-                    <x-form-inputtext label="Hizalama" name="align"/>
                     <x-form-inputtext label="Buton Yazı" name="button_text"/>
                     <x-form-inputtext label="Buton Link" name="button_link"/>
                 </div>

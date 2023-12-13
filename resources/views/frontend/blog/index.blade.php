@@ -26,15 +26,15 @@
                             <div class="card border-0 border-radius-0 box-shadow-1 appear-animation animated fadeInUpShorter appear-animation-visible mb-4" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" style="animation-delay: 500ms;">
                                 <div class="card-body p-4 z-index-1">
                                     <a href="{{ route('blogdetail' , $item->slug)}}" title="{{ $item->title }}">
-                                        <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="{{ $item->title }}">
+                                        <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="Asosyal Ajans - {{ $item->title }}">
                                     </a>
                                     <p class="text-uppercase text-1 mb-3 pt-1 text-color-default">
-                                        <time>{{ $item->created_at->diffForHumans()  }}</time> <span class="opacity-3 d-inline-block px-2">|</span> Dr. Turan Çetin</p>
+                                        <time>{{ $item->created_at->diffForHumans()  }}</time> <span class="opacity-3 d-inline-block px-2">|</span> Asosyal Ajans</p>
                                     <div class="card-body p-0">
                                         <h4 class="card-title mb-3 text-5 font-weight-bold">
                                             <a href="{{ route('blogdetail' , $item->slug)}}" title="{{ $item->title }}">{{ $item->title }}</a>
                                         </h4>
-                                        <a href="{{ route('blogdetail' , $item->slug)}}" title="{{ $item->title }}" class="font-weight-bold text-uppercase text-decoration-none d-block mt-3">DEvamını Oku+</a>
+                                        <a href="{{ route('blogdetail' , $item->slug)}}" title="{{ $item->title }}" class="font-weight-bold text-uppercase text-decoration-none d-block mt-3">Devamını Oku+</a>
                                     </div>
                                 </div>
                             </div>

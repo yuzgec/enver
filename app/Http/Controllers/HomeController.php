@@ -18,13 +18,15 @@ class HomeController extends Controller
         SEOMeta::setTitle('Asosyal Ajans ve Araştırma | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription("Asosyal Ajans Kocaeli İzmit'te anket, organizasyon ve medya alanında hizmet vermektedir.");
         SEOMeta::setCanonical(url()->full());
-        return view('frontend.index');
+        $About = Page::where('slug', 'hakkimizda')->firstOrFail();
+
+        return view('frontend.index', compact('About'));
 
     }
 
     public function reference(){
 
-        SEOMeta::setTitle('Referanslarıımız | Kocaeli İzmit Ajans ve Araştırma Şirketi');
+        SEOMeta::setTitle('Referanslarımız | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription("Asosyal Ajans Kocaeli İzmit'te anket, organizasyon ve medya alanında hizmet vermektedir.");
         SEOMeta::setCanonical(url()->full());
 
@@ -80,7 +82,7 @@ class HomeController extends Controller
 
     public function blog(){
 
-        SEOMeta::setTitle('Makaleler | Kocaeli İzmit Asosyal Ajans ve Araştırma');
+        SEOMeta::setTitle('Blog | Kocaeli İzmit Asosyal Ajans ve Araştırma');
         SEOMeta::setDescription('Asosyal Ajans');
         SEOMeta::setCanonical(url()->full());
 

@@ -32,7 +32,7 @@
                 <div class="card-body">
                     <x-form-inputtext label="Başlık" name="title"></x-form-inputtext>
                     <x-form-select label="Kategori" name="category" :list="$Kategori"></x-form-select>
-                    <x-form-textarea label="Kısa Açıklama" name="short" :ck='null'></x-form-textarea>
+                    <x-form-textarea label="Kısa Açıklama" name="short" ck="short"></x-form-textarea>
                     <x-form-textarea label="Açıklama" name="desc"></x-form-textarea>
                     <div class="card-header mb-2">
                         <h4 class="card-title">
@@ -133,6 +133,13 @@
 
 @section('customJS')
     <script src="//cdn.ckeditor.com/4.17.1/full/ckeditor.js"></script>
+    <script>
+        // CKEditor yapılandırmasını özelleştir
+        CKEDITOR.editorConfig = function( config ) {
+            // Tüm içerikleri kabul et
+            config.allowedContent = true;
+        };
+    </script>
     <script type="text/javascript">
 
         $(document).ready(function() {
@@ -147,6 +154,23 @@
             filebrowserUploadUrl: "{{ route('page.postUpload', ['_token' => csrf_token()]) }}",
             filebrowserUploadMethod: 'form',
             height : 500,
+            toolbar: [
+                { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
+                { name: 'paragraph',items: [ 'BulletedList']},
+                { name: 'colors', items: [ 'TextColor' ]},
+                { name: 'styles', items: [ 'Format', 'FontSize']},
+                { name: 'links', items : [ 'Link', 'Unlink'] },
+                { name: 'insert', items : [ 'Image', 'Table']},
+                { name: 'document', items : [ 'Source','Maximize' ]},
+                { name: 'clipboard', items : [ 'PasteText', 'PasteFromWord' ]},
+            ],
+        });
+        CKEDITOR.replace( 'short', {
+            allowedContent: true,
+            filebrowserUploadUrl: "{{ route('page.postUpload', ['_token' => csrf_token()]) }}",
+            filebrowserUploadMethod: 'form',
+            height : 200,
+
             toolbar: [
                 { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold']},
                 { name: 'paragraph',items: [ 'BulletedList']},
