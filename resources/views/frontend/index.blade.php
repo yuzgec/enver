@@ -53,7 +53,8 @@
                 <p class="text-uppercase mb-0 d-block text-center text-uppercase appear-animation animated fadeInUpShorter appear-animation-visible"
                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">ASOSYAL AJANS</p>
                 <h3 class="text-color-quaternary mb-2 d-block text-center font-weight-bold text-capitalize appear-animation animated
-                    fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">ÇALIŞMA ALANLARIMIZ
+                    fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" 
+                    style="animation-delay: 400ms;">ÇALIŞMA &nbsp;ALANLARIMIZ
                 </h3>
             </div>
         </div>

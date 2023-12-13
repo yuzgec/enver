@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactRequest;
 use App\Models\Blog;
+use App\Models\Slider;
 use App\Models\Form;
 use App\Models\Page;
 use App\Models\Service;
@@ -18,9 +19,10 @@ class HomeController extends Controller
         SEOMeta::setTitle('Asosyal Ajans ve Araştırma | Kocaeli İzmit Ajans ve Araştırma Şirketi');
         SEOMeta::setDescription("Asosyal Ajans Kocaeli İzmit'te anket, organizasyon ve medya alanında hizmet vermektedir.");
         SEOMeta::setCanonical(url()->full());
+        $Slider = Slider::all();
         $About = Page::where('slug', 'hakkimizda')->firstOrFail();
 
-        return view('frontend.index', compact('About'));
+        return view('frontend.index', compact('About', 'Slider'));
 
     }
 

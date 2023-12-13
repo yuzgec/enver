@@ -37,7 +37,7 @@
                     @foreach($All as $item)
                     <tr id="slider_{{$item->id}}">
                         <td>
-                            <img src="{{ (!$item->getFirstMediaUrl('slider')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('slider')}}" class="avatar me-2"/>
+                            <img src="{{ (!$item->getFirstMediaUrl('web')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('web')}}" class="avatar me-2"/>
                         </td>
                         <td>
                             <div class="font-weight-medium">
