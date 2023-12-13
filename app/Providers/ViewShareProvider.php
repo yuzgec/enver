@@ -26,9 +26,7 @@ class ViewShareProvider extends ServiceProvider
 
         $Servicecategory = ServiceCategory::orderBy('rank', 'asc')->whereNotIn('id',[3,2])->get();
 
-        $Blog = Cache::remember('blog',now()->addYear(1), function () {
-            return Blog::all();
-        });
+        $Blog = Blog::all();
 
 
         View::share([
